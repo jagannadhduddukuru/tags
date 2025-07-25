@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Images Side by Side</title>
+    <style>
+        .box-container-2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        box-sizing: border-box;
+        padding: 3%;
+        margin: 0%;
+    }
+    .box2{
+        flex: 0 0 calc(25% - 20px);
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
+
+    }
+    .box2 img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .box2 p{
+        text-align: center;
+    }
+
+        .box-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 3%;
+            margin: 0;
+            gap: 20px;
+            box-sizing: border-box;
+        }
+
+        .box1 {
+            flex: 0 0 calc(25% - 20px);
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .box1 img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .box1 p {
+            text-align: center;
+        }
+        .h1{
+            text-align: center;
+            padding: 3%;
+        }
+    </style>
+</head>
+<center><h1>MY FOOD VLOG</h1></center>
+<body>
+    <div class="box-container">
+        <div class="box1">
+            <img src="./sandwich.jpg" alt="Sandwich">
+            <center><h><i>Golden Brown Sandwich</i></h></center>
+            <p>a crispy gloden brown sandwitch with fresh vegetables</p>
+        </div>
+        <div class="box1">
+            <img src="./wine.jpg" alt="Wine">
+            <center><h><i>WHITE WINE</i></h></center>
+            <p>Made in United States with cheerful fruits.</p>
+        </div>
+        <div class="box1">
+            <img src="./steak.jpg" alt="Steak">
+            <center><h><i>STREAK</i></h></center>
+            <p>This is our special steak made with love and affection.</p>
+        </div>
+        <div class="box1">
+            <img src="./cherries.jpg" alt="Cherries">
+            <center><i><b> <h>Cherries</h></b></i></center>
+            <p>These cherries were the topping on that ice cream.</p>
+        </div>
+    </div>
+    <div class="box-container-2">
+        <div class="box2">
+            <img src="./croissant.jpg" alt="img" height="500" width="250">
+           <center><i><b> <h>CROISSANT</h></b></i></center>
+            <p>delightfull food with peace of mind</p>
+        </div>
+        <div class="box2">
+            <img src="./popsicle.jpg" alt="Wine">
+            <center><i><b> <h>POPSICLE</h></b></i></center>
+            <p>This is made in the United States with cheerful fruits.</p>
+        </div>
+        <div class="box2">
+            <img src="./salmon.jpg" alt="Steak">
+            <center><i><b> <h>SALMON</h></b></i></center>
+            <p>This is our special salmon made with love and affection.</p>
+        </div>
+        <div class="box2">
+            <img src="./cherries.jpg" alt="Cherries">
+           <center><i><b><h>Cherries</h></b></i></center>
+            <p>These cherries were the topping on that ice cream.</p>
+        </div>
+    </div>
+</body>
+</html>
